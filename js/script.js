@@ -3,8 +3,8 @@ $(document).ready(function() {
     $.fn.myFunction = function(buttonlable){ 
 var b= '#'+ buttonlable;
 
-        var t =$('#focusedInput').val();
-   var cs =$('#csInput').val();
+        var t ="16abceacbe6849b7a50af7e77debdba7";
+   var cs ="blynk-cloud.com"
    if (cs!="" && cs!=null)
      {
          var api2 = "http://"+cs+":8080/"+t+"/pin/"+buttonlable;
@@ -36,8 +36,8 @@ if(obj==1){
   
  $("#sub").click(function(){
    
-   var t =$('#focusedInput').val();
-   var cs =$('#csInput').val();
+  var t ="16abceacbe6849b7a50af7e77debdba7";
+  var cs ="blynk-cloud.com"
    if (cs!="" && cs!=null)
      {
          var api = "http://"+cs+":8080/"+t+"/project";

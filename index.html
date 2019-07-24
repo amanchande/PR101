@@ -18,19 +18,7 @@
         <br><br>
                 <div class="container">
                     <div class="col-sm-2">
-                        <legend>Enter The Token</legend>
-                    </div>
-                    <div class="col-sm-3">
-                        <input class="form-control" id="focusedInput" type="text">
-                    </div>
-                    <div class="col-sm-2">
-                        <legend>Custom Server</legend>
-                    </div>
-                    <div class="col-sm-3">
-                        <input class="form-control" id="csInput" type="text" placeholder="blynk-cloud.com">
-                    </div>
-                    <div class="col-sm-2">
-                        <button id="sub" class="btn btn-primary">Submit</button>
+                        <button id="sub" class="btn btn-primary">Connect To Device</button>
                     </div>
                 </div>
                 <br>
@@ -88,8 +76,8 @@
         currentvalue = document.getElementById(e).value;
         alert(currentvalue);
 
-        var t = $('#focusedInput').val();
-        var cs = $('#csInput').val();
+        var t = "16abceacbe6849b7a50af7e77debdba7"
+        var cs ="blynk-cloud.com"
         if (cs != "" && cs != null) {
 
             var ashow = "http://" + cs + ":8080/" + t + "/update/" + e + "?value=" + currentvalue;
@@ -115,8 +103,8 @@
             document.getElementById(e).value = "Off";
         }
 
-        var t = $('#focusedInput').val();
-        var cs = $('#csInput').val();
+        var t = "16abceacbe6849b7a50af7e77debdba7"
+        var cs ="blynk-cloud.com"
         if (cs != "" && cs != null) {
 
             var ashow = "http://" + cs + ":8080/" + t + "/update/" + e + "?value=" + c;
