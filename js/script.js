@@ -3,7 +3,7 @@ $(document).ready(function() {
     $.fn.myFunction = function(buttonlable){ 
 var b= '#'+ buttonlable;
 
-        var t ="16abceacbe6849b7a50af7e77debdba7";
+        var t ="uxaqz-_Qb6AIt6hIuRxPQLC6pItZanAu";
    var cs ="blynk-cloud.com"
    if (cs!="" && cs!=null)
      {
@@ -36,7 +36,7 @@ if(obj==1){
   
  $("#sub").click(function(){
    
-  var t ="16abceacbe6849b7a50af7e77debdba7";
+  var t ="uxaqz-_Qb6AIt6hIuRxPQLC6pItZanAu";
   var cs ="blynk-cloud.com"
    if (cs!="" && cs!=null)
      {
