@@ -54,6 +54,27 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+button {
+  outline: none !important;
+}
+
+#pr-head {
+  height: 29px;
+  width: auto;
+}
+
+#pr-head path{
+  stroke-dasharray: 1870.942626953125;
+  stroke-dashoffset: 1870.942626953125;
+  animation: head-anim 5s ease forwards;
+}
+
+@keyframes head-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 
 
 
