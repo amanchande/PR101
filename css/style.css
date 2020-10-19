@@ -59,17 +59,18 @@ button {
 }
 
 #pr-head {
-  height: 29px;
+  height: 30px;
   width: auto;
+  margin-top: -5px;
 }
 
 #pr-head path{
   stroke-dasharray: 1870.942626953125;
   stroke-dashoffset: 1870.942626953125;
-  animation: head-anim 5s ease forwards;
+  animation: logo-anim 7s ease forwards;
 }
 
-@keyframes head-anim {
+@keyframes logo-anim {
   to {
     stroke-dashoffset: 0;
   }
