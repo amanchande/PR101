@@ -71,8 +71,14 @@ button {
 }
 
 @keyframes logo-anim {
+  from {
+    fill: whitesmoke;
+    stroke: grey;
+  }
   to {
     stroke-dashoffset: 0;
+    fill: orange;
+    stroke: orange;
   }
 }
 
